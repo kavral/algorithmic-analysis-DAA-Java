@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="550" viewBox="0 0 920 550" role="img">
+<title>append — median nanoseconds per operation</title>
+<desc>Logarithmic axes; points show medians of fork medians and whiskers show the range of fork medians.</desc>
+<rect width="920" height="550" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#222">
+<text x="80.00" y="32.00" font-size="21" text-anchor="start">append — measured time per operation</text>
+<text x="80.00" y="55.00" font-size="13" text-anchor="start">Median of fork medians; whiskers = min–max fork medians</text>
+<line x1="90.00" y1="420.00" x2="670.00" y2="420.00" stroke="#ddd" stroke-width="1"/>
+<text x="78.00" y="425.00" font-size="12" text-anchor="end">10^1</text>
+<line x1="90.00" y1="90.00" x2="670.00" y2="90.00" stroke="#ddd" stroke-width="1"/>
+<text x="78.00" y="95.00" font-size="12" text-anchor="end">10^2</text>
+<line x1="100.00" y1="90.00" x2="100.00" y2="420.00" stroke="#e5e5e5" stroke-width="1"/>
+<text x="100.00" y="445.00" font-size="13" text-anchor="middle">1,000</text>
+<line x1="380.00" y1="90.00" x2="380.00" y2="420.00" stroke="#e5e5e5" stroke-width="1"/>
+<text x="380.00" y="445.00" font-size="13" text-anchor="middle">10,000</text>
+<line x1="660.00" y1="90.00" x2="660.00" y2="420.00" stroke="#e5e5e5" stroke-width="1"/>
+<text x="660.00" y="445.00" font-size="13" text-anchor="middle">100,000</text>
+<line x1="90.00" y1="420.00" x2="670.00" y2="420.00" stroke="#555" stroke-width="1"/>
+<line x1="90.00" y1="90.00" x2="90.00" y2="420.00" stroke="#555" stroke-width="1"/>
+<text x="380.00" y="478.00" font-size="14" text-anchor="middle">n — structure size / build count (log scale)</text>
+<text x="22" y="260" transform="rotate(-90 22 260)" text-anchor="middle" font-size="14">Time (ns/op, log scale)</text>
+<line x1="700.00" y1="106.00" x2="725.00" y2="106.00" stroke="#1463a3" stroke-width="2"/>
+<text x="733.00" y="110.00" font-size="13" text-anchor="start">ArrayList</text>
+<polyline fill="none" stroke="#1463a3" stroke-width="2" points="100.00,316.42 380.00,321.09 660.00,338.47 "/>
+<line x1="100.00" y1="372.81" x2="100.00" y2="315.04" stroke="#1463a3" stroke-width="1"/>
+<line x1="96.00" y1="372.81" x2="104.00" y2="372.81" stroke="#1463a3" stroke-width="1"/>
+<line x1="96.00" y1="315.04" x2="104.00" y2="315.04" stroke="#1463a3" stroke-width="1"/>
+<circle cx="100.00" cy="316.42" r="4" fill="#1463a3"><title>ArrayList: n=1000, 20.60 ns/op</title></circle>
+<line x1="380.00" y1="391.38" x2="380.00" y2="280.93" stroke="#1463a3" stroke-width="1"/>
+<line x1="376.00" y1="391.38" x2="384.00" y2="391.38" stroke="#1463a3" stroke-width="1"/>
+<line x1="376.00" y1="280.93" x2="384.00" y2="280.93" stroke="#1463a3" stroke-width="1"/>
+<circle cx="380.00" cy="321.09" r="4" fill="#1463a3"><title>ArrayList: n=10000, 19.94 ns/op</title></circle>
+<line x1="660.00" y1="412.44" x2="660.00" y2="337.31" stroke="#1463a3" stroke-width="1"/>
+<line x1="656.00" y1="412.44" x2="664.00" y2="412.44" stroke="#1463a3" stroke-width="1"/>
+<line x1="656.00" y1="337.31" x2="664.00" y2="337.31" stroke="#1463a3" stroke-width="1"/>
+<circle cx="660.00" cy="338.47" r="4" fill="#1463a3"><title>ArrayList: n=100000, 17.66 ns/op</title></circle>
+<line x1="700.00" y1="136.00" x2="725.00" y2="136.00" stroke="#c04e20" stroke-width="2"/>
+<text x="733.00" y="140.00" font-size="13" text-anchor="start">DynamicArray</text>
+<polyline fill="none" stroke="#c04e20" stroke-width="2" points="100.00,352.64 380.00,342.19 660.00,306.45 "/>
+<line x1="100.00" y1="353.54" x2="100.00" y2="350.86" stroke="#c04e20" stroke-width="1"/>
+<line x1="96.00" y1="353.54" x2="104.00" y2="353.54" stroke="#c04e20" stroke-width="1"/>
+<line x1="96.00" y1="350.86" x2="104.00" y2="350.86" stroke="#c04e20" stroke-width="1"/>
+<circle cx="100.00" cy="352.64" r="4" fill="#c04e20"><title>DynamicArray: n=1000, 16.00 ns/op</title></circle>
+<line x1="380.00" y1="354.72" x2="380.00" y2="339.14" stroke="#c04e20" stroke-width="1"/>
+<line x1="376.00" y1="354.72" x2="384.00" y2="354.72" stroke="#c04e20" stroke-width="1"/>
+<line x1="376.00" y1="339.14" x2="384.00" y2="339.14" stroke="#c04e20" stroke-width="1"/>
+<circle cx="380.00" cy="342.19" r="4" fill="#c04e20"><title>DynamicArray: n=10000, 17.21 ns/op</title></circle>
+<line x1="660.00" y1="313.74" x2="660.00" y2="295.29" stroke="#c04e20" stroke-width="1"/>
+<line x1="656.00" y1="313.74" x2="664.00" y2="313.74" stroke="#c04e20" stroke-width="1"/>
+<line x1="656.00" y1="295.29" x2="664.00" y2="295.29" stroke="#c04e20" stroke-width="1"/>
+<circle cx="660.00" cy="306.45" r="4" fill="#c04e20"><title>DynamicArray: n=100000, 22.09 ns/op</title></circle>
+<line x1="700.00" y1="166.00" x2="725.00" y2="166.00" stroke="#437c43" stroke-width="2"/>
+<text x="733.00" y="170.00" font-size="13" text-anchor="start">JavaLinkedList</text>
+<polyline fill="none" stroke="#437c43" stroke-width="2" points="100.00,329.53 380.00,340.13 660.00,350.82 "/>
+<line x1="100.00" y1="384.62" x2="100.00" y2="240.87" stroke="#437c43" stroke-width="1"/>
+<line x1="96.00" y1="384.62" x2="104.00" y2="384.62" stroke="#437c43" stroke-width="1"/>
+<line x1="96.00" y1="240.87" x2="104.00" y2="240.87" stroke="#437c43" stroke-width="1"/>
+<circle cx="100.00" cy="329.53" r="4" fill="#437c43"><title>JavaLinkedList: n=1000, 18.80 ns/op</title></circle>
+<line x1="380.00" y1="384.40" x2="380.00" y2="329.60" stroke="#437c43" stroke-width="1"/>
+<line x1="376.00" y1="384.40" x2="384.00" y2="384.40" stroke="#437c43" stroke-width="1"/>
+<line x1="376.00" y1="329.60" x2="384.00" y2="329.60" stroke="#437c43" stroke-width="1"/>
+<circle cx="380.00" cy="340.13" r="4" fill="#437c43"><title>JavaLinkedList: n=10000, 17.46 ns/op</title></circle>
+<line x1="660.00" y1="352.66" x2="660.00" y2="348.23" stroke="#437c43" stroke-width="1"/>
+<line x1="656.00" y1="352.66" x2="664.00" y2="352.66" stroke="#437c43" stroke-width="1"/>
+<line x1="656.00" y1="348.23" x2="664.00" y2="348.23" stroke="#437c43" stroke-width="1"/>
+<circle cx="660.00" cy="350.82" r="4" fill="#437c43"><title>JavaLinkedList: n=100000, 16.20 ns/op</title></circle>
+<line x1="700.00" y1="196.00" x2="725.00" y2="196.00" stroke="#7952a1" stroke-width="2"/>
+<text x="733.00" y="200.00" font-size="13" text-anchor="start">LinkedList</text>
+<polyline fill="none" stroke="#7952a1" stroke-width="2" points="100.00,363.81 380.00,336.88 660.00,348.68 "/>
+<line x1="100.00" y1="364.79" x2="100.00" y2="359.99" stroke="#7952a1" stroke-width="1"/>
+<line x1="96.00" y1="364.79" x2="104.00" y2="364.79" stroke="#7952a1" stroke-width="1"/>
+<line x1="96.00" y1="359.99" x2="104.00" y2="359.99" stroke="#7952a1" stroke-width="1"/>
+<circle cx="100.00" cy="363.81" r="4" fill="#7952a1"><title>LinkedList: n=1000, 14.80 ns/op</title></circle>
+<line x1="380.00" y1="364.88" x2="380.00" y2="299.88" stroke="#7952a1" stroke-width="1"/>
+<line x1="376.00" y1="364.88" x2="384.00" y2="364.88" stroke="#7952a1" stroke-width="1"/>
+<line x1="376.00" y1="299.88" x2="384.00" y2="299.88" stroke="#7952a1" stroke-width="1"/>
+<circle cx="380.00" cy="336.88" r="4" fill="#7952a1"><title>LinkedList: n=10000, 17.86 ns/op</title></circle>
+<line x1="660.00" y1="360.16" x2="660.00" y2="344.29" stroke="#7952a1" stroke-width="1"/>
+<line x1="656.00" y1="360.16" x2="664.00" y2="360.16" stroke="#7952a1" stroke-width="1"/>
+<line x1="656.00" y1="344.29" x2="664.00" y2="344.29" stroke="#7952a1" stroke-width="1"/>
+<circle cx="660.00" cy="348.68" r="4" fill="#7952a1"><title>LinkedList: n=100000, 16.45 ns/op</title></circle>
+<text x="80.00" y="515.00" font-size="12" text-anchor="start">Source: results/tables/raw-*.csv; run timestamps in environment-*.txt</text>
+<text x="80.00" y="535.00" font-size="12" text-anchor="start">Batch averages; tiny timings include JVM optimization effects. See README for workload definitions.</text>
+</g>
+</svg>

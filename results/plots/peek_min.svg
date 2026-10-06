@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="550" viewBox="0 0 920 550" role="img">
+<title>peek_min — median nanoseconds per operation</title>
+<desc>Logarithmic axes; points show medians of fork medians and whiskers show the range of fork medians.</desc>
+<rect width="920" height="550" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#222">
+<text x="80.00" y="32.00" font-size="21" text-anchor="start">peek min — measured time per operation</text>
+<text x="80.00" y="55.00" font-size="13" text-anchor="start">Median of fork medians; whiskers = min–max fork medians</text>
+<line x1="90.00" y1="420.00" x2="670.00" y2="420.00" stroke="#ddd" stroke-width="1"/>
+<text x="78.00" y="425.00" font-size="12" text-anchor="end">10^-1</text>
+<line x1="90.00" y1="255.00" x2="670.00" y2="255.00" stroke="#ddd" stroke-width="1"/>
+<text x="78.00" y="260.00" font-size="12" text-anchor="end">10^0</text>
+<line x1="90.00" y1="90.00" x2="670.00" y2="90.00" stroke="#ddd" stroke-width="1"/>
+<text x="78.00" y="95.00" font-size="12" text-anchor="end">10^1</text>
+<line x1="100.00" y1="90.00" x2="100.00" y2="420.00" stroke="#e5e5e5" stroke-width="1"/>
+<text x="100.00" y="445.00" font-size="13" text-anchor="middle">1,000</text>
+<line x1="380.00" y1="90.00" x2="380.00" y2="420.00" stroke="#e5e5e5" stroke-width="1"/>
+<text x="380.00" y="445.00" font-size="13" text-anchor="middle">10,000</text>
+<line x1="660.00" y1="90.00" x2="660.00" y2="420.00" stroke="#e5e5e5" stroke-width="1"/>
+<text x="660.00" y="445.00" font-size="13" text-anchor="middle">100,000</text>
+<line x1="90.00" y1="420.00" x2="670.00" y2="420.00" stroke="#555" stroke-width="1"/>
+<line x1="90.00" y1="90.00" x2="90.00" y2="420.00" stroke="#555" stroke-width="1"/>
+<text x="380.00" y="478.00" font-size="14" text-anchor="middle">n — structure size / build count (log scale)</text>
+<text x="22" y="260" transform="rotate(-90 22 260)" text-anchor="middle" font-size="14">Time (ns/op, log scale)</text>
+<line x1="700.00" y1="106.00" x2="725.00" y2="106.00" stroke="#1463a3" stroke-width="2"/>
+<text x="733.00" y="110.00" font-size="13" text-anchor="start">MinHeap</text>
+<polyline fill="none" stroke="#1463a3" stroke-width="2" points="100.00,280.56 380.00,241.94 660.00,216.98 "/>
+<line x1="100.00" y1="304.67" x2="100.00" y2="280.56" stroke="#1463a3" stroke-width="1"/>
+<line x1="96.00" y1="304.67" x2="104.00" y2="304.67" stroke="#1463a3" stroke-width="1"/>
+<line x1="96.00" y1="280.56" x2="104.00" y2="280.56" stroke="#1463a3" stroke-width="1"/>
+<circle cx="100.00" cy="280.56" r="4" fill="#1463a3"><title>MinHeap: n=1000, 0.70 ns/op</title></circle>
+<line x1="380.00" y1="280.56" x2="380.00" y2="201.83" stroke="#1463a3" stroke-width="1"/>
+<line x1="376.00" y1="280.56" x2="384.00" y2="280.56" stroke="#1463a3" stroke-width="1"/>
+<line x1="376.00" y1="201.83" x2="384.00" y2="201.83" stroke="#1463a3" stroke-width="1"/>
+<circle cx="380.00" cy="241.94" r="4" fill="#1463a3"><title>MinHeap: n=10000, 1.20 ns/op</title></circle>
+<line x1="660.00" y1="225.94" x2="660.00" y2="198.50" stroke="#1463a3" stroke-width="1"/>
+<line x1="656.00" y1="225.94" x2="664.00" y2="225.94" stroke="#1463a3" stroke-width="1"/>
+<line x1="656.00" y1="198.50" x2="664.00" y2="198.50" stroke="#1463a3" stroke-width="1"/>
+<circle cx="660.00" cy="216.98" r="4" fill="#1463a3"><title>MinHeap: n=100000, 1.70 ns/op</title></circle>
+<line x1="700.00" y1="136.00" x2="725.00" y2="136.00" stroke="#c04e20" stroke-width="2"/>
+<text x="733.00" y="140.00" font-size="13" text-anchor="start">PriorityQueue</text>
+<polyline fill="none" stroke="#c04e20" stroke-width="2" points="100.00,304.67 380.00,270.99 660.00,225.94 "/>
+<line x1="100.00" y1="304.67" x2="100.00" y2="291.61" stroke="#c04e20" stroke-width="1"/>
+<line x1="96.00" y1="304.67" x2="104.00" y2="304.67" stroke="#c04e20" stroke-width="1"/>
+<line x1="96.00" y1="291.61" x2="104.00" y2="291.61" stroke="#c04e20" stroke-width="1"/>
+<circle cx="100.00" cy="304.67" r="4" fill="#c04e20"><title>PriorityQueue: n=1000, 0.50 ns/op</title></circle>
+<line x1="380.00" y1="270.99" x2="380.00" y2="248.17" stroke="#c04e20" stroke-width="1"/>
+<line x1="376.00" y1="270.99" x2="384.00" y2="270.99" stroke="#c04e20" stroke-width="1"/>
+<line x1="376.00" y1="248.17" x2="384.00" y2="248.17" stroke="#c04e20" stroke-width="1"/>
+<circle cx="380.00" cy="270.99" r="4" fill="#c04e20"><title>PriorityQueue: n=10000, 0.80 ns/op</title></circle>
+<line x1="660.00" y1="225.94" x2="660.00" y2="216.98" stroke="#c04e20" stroke-width="1"/>
+<line x1="656.00" y1="225.94" x2="664.00" y2="225.94" stroke="#c04e20" stroke-width="1"/>
+<line x1="656.00" y1="216.98" x2="664.00" y2="216.98" stroke="#c04e20" stroke-width="1"/>
+<circle cx="660.00" cy="225.94" r="4" fill="#c04e20"><title>PriorityQueue: n=100000, 1.50 ns/op</title></circle>
+<text x="80.00" y="515.00" font-size="12" text-anchor="start">Source: results/tables/raw-*.csv; run timestamps in environment-*.txt</text>
+<text x="80.00" y="535.00" font-size="12" text-anchor="start">Batch averages; tiny timings include JVM optimization effects. See README for workload definitions.</text>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+started_utc=2026-09-26T07:40:04.825741100Z
+java.version=17.0.20.1
+java.vendor=Microsoft
+java.vm.name=OpenJDK 64-Bit Server VM
+os.name=Windows 11
+os.version=10.0
+os.arch=amd64
+processor=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+available_processors=16
+max_heap_bytes=268435456
+jvm_arguments=[-Xms256m, -Xmx256m]
+seed=20260926
+fork=3
+warmups=3
+repetitions=5
